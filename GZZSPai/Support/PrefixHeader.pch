@@ -1,0 +1,45 @@
+//
+//  PrefixHeader.pch
+//  GZZSPai
+//
+//  Created by jiangkuiquan on 2018/3/19.
+//  Copyright © 2018年 skye. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//统一引入Masonry
+#import <Masonry.h>
+#import <UIImage+YYWebImage.h>
+#import <CALayer+YYWebImage.h>
+#import <UIImageView+YYWebImage.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+
+//屏幕宽高
+#define LYScreenWidth [UIScreen mainScreen].bounds.size.width
+#define LYScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define GZZScreenWidth [UIScreen mainScreen].bounds.size.width
+#define GZZScreenHeight [UIScreen mainScreen].bounds.size.height
+
+
+//#define UIColor(r, g, b) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:1]
+//#define LYNavGray UIColor(170, 160, 160)
+//#define LYLineGray UIColor(190, 190, 190)
+//快捷颜色
+#define UIColor(r, g, b) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:1]
+#define GZZNavGray UIColor(170,160,160)
+#define GZZLineGray UIColor(190,190,190)
+
+////物理1像素
+//#define SINGLE_LINE_WIDTH  (1 / [UIScreen mainScreen].scale)
+
+//物理像素
+#define SINGLE_LINE_WIDTH  (1/[UIScreen mainScreen].scale)
+
+
+#endif /* PrefixHeader_pch */

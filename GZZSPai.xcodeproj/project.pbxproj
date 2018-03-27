@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB45525B20577537007C53DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB45525A20577537007C53DB /* AppDelegate.m */; };
-		AB45525E20577537007C53DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB45525D20577537007C53DB /* ViewController.m */; };
-		AB45526120577537007C53DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB45525F20577537007C53DB /* Main.storyboard */; };
+		6D6A2FB522DA5552785DACBF /* libPods-GZZSPai.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00A50F0948534D495EC9D649 /* libPods-GZZSPai.a */; };
 		AB45526320577537007C53DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB45526220577537007C53DB /* Assets.xcassets */; };
 		AB45526620577537007C53DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB45526420577537007C53DB /* LaunchScreen.storyboard */; };
-		AB45526920577537007C53DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB45526820577537007C53DB /* main.m */; };
 		AB45527320577537007C53DB /* GZZSPaiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB45527220577537007C53DB /* GZZSPaiTests.m */; };
 		AB45527E20577538007C53DB /* GZZSPaiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB45527D20577538007C53DB /* GZZSPaiUITests.m */; };
+		AB455296205779BF007C53DB /* GZZTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB455295205779BF007C53DB /* GZZTabBarController.m */; };
+		AB45529920577A0F007C53DB /* GZZNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB45529820577A0F007C53DB /* GZZNavController.m */; };
+		AB45529C20577A67007C53DB /* GZZSPaiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB45529B20577A67007C53DB /* GZZSPaiViewController.m */; };
+		AB4552A320577B67007C53DB /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4552A220577B67007C53DB /* HomePageViewController.m */; };
+		AB4552AC20577C39007C53DB /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4552AB20577C39007C53DB /* MessageViewController.m */; };
+		AB4552AF20577C57007C53DB /* FoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4552AE20577C57007C53DB /* FoundViewController.m */; };
+		AB4552B320577D5B007C53DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4552B020577D5B007C53DB /* AppDelegate.m */; };
+		AB4552B420577D5B007C53DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4552B120577D5B007C53DB /* main.m */; };
+		AB4552B720578129007C53DB /* LoginPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB4552B620578129007C53DB /* LoginPageViewController.m */; };
+		AB636F7C205F518800A6F1BD /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB636F7B205F518800A6F1BD /* HeaderView.m */; };
+		AB636F80205F918800A6F1BD /* GZZLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB636F7F205F918800A6F1BD /* GZZLoadingView.m */; };
+		AB7ACE8620637E7F00300FAD /* AdsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7ACE8520637E7F00300FAD /* AdsCell.m */; };
+		AB8DB9D3206886D7006959AA /* PaidNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8DB9D2206886D6006959AA /* PaidNewsCell.m */; };
+		AB9DC3D8206496FD00B2C3C2 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB9DC3D7206496FD00B2C3C2 /* NewsCell.m */; };
+		ABD095472069D38D00F2E922 /* SimpleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD095412069D38D00F2E922 /* SimpleTableViewController.m */; };
+		ABD095482069D38D00F2E922 /* CatalogueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD095452069D38D00F2E922 /* CatalogueCell.m */; };
+		ABD095492069D38D00F2E922 /* CatalogueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABD095462069D38D00F2E922 /* CatalogueCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +49,52 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A50F0948534D495EC9D649 /* libPods-GZZSPai.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GZZSPai.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB45525620577537007C53DB /* GZZSPai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GZZSPai.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB45525920577537007C53DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AB45525A20577537007C53DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AB45525C20577537007C53DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AB45525D20577537007C53DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		AB45526020577537007C53DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB45526220577537007C53DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB45526520577537007C53DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB45526720577537007C53DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AB45526820577537007C53DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB45526E20577537007C53DB /* GZZSPaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GZZSPaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB45527220577537007C53DB /* GZZSPaiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GZZSPaiTests.m; sourceTree = "<group>"; };
 		AB45527420577537007C53DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB45527920577538007C53DB /* GZZSPaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GZZSPaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB45527D20577538007C53DB /* GZZSPaiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GZZSPaiUITests.m; sourceTree = "<group>"; };
 		AB45527F20577538007C53DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB455294205779BF007C53DB /* GZZTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GZZTabBarController.h; sourceTree = "<group>"; };
+		AB455295205779BF007C53DB /* GZZTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GZZTabBarController.m; sourceTree = "<group>"; };
+		AB45529720577A0F007C53DB /* GZZNavController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GZZNavController.h; sourceTree = "<group>"; };
+		AB45529820577A0F007C53DB /* GZZNavController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GZZNavController.m; sourceTree = "<group>"; };
+		AB45529A20577A67007C53DB /* GZZSPaiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GZZSPaiViewController.h; sourceTree = "<group>"; };
+		AB45529B20577A67007C53DB /* GZZSPaiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GZZSPaiViewController.m; sourceTree = "<group>"; };
+		AB4552A120577B67007C53DB /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		AB4552A220577B67007C53DB /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		AB4552AA20577C39007C53DB /* MessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		AB4552AB20577C39007C53DB /* MessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		AB4552AD20577C57007C53DB /* FoundViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoundViewController.h; sourceTree = "<group>"; };
+		AB4552AE20577C57007C53DB /* FoundViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoundViewController.m; sourceTree = "<group>"; };
+		AB4552B020577D5B007C53DB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB4552B120577D5B007C53DB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB4552B220577D5B007C53DB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB4552B520578129007C53DB /* LoginPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginPageViewController.h; sourceTree = "<group>"; };
+		AB4552B620578129007C53DB /* LoginPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginPageViewController.m; sourceTree = "<group>"; };
+		AB636F7A205F518800A6F1BD /* HeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		AB636F7B205F518800A6F1BD /* HeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		AB636F7D205F555000A6F1BD /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AB636F7E205F918800A6F1BD /* GZZLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GZZLoadingView.h; sourceTree = "<group>"; };
+		AB636F7F205F918800A6F1BD /* GZZLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GZZLoadingView.m; sourceTree = "<group>"; };
+		AB7ACE8420637E7F00300FAD /* AdsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdsCell.h; sourceTree = "<group>"; };
+		AB7ACE8520637E7F00300FAD /* AdsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdsCell.m; sourceTree = "<group>"; };
+		AB8DB9D1206886D6006959AA /* PaidNewsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaidNewsCell.h; sourceTree = "<group>"; };
+		AB8DB9D2206886D6006959AA /* PaidNewsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaidNewsCell.m; sourceTree = "<group>"; };
+		AB9DC3D6206496FD00B2C3C2 /* NewsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
+		AB9DC3D7206496FD00B2C3C2 /* NewsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsCell.m; sourceTree = "<group>"; };
+		ABD095402069D38D00F2E922 /* SimpleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableViewController.h; sourceTree = "<group>"; };
+		ABD095412069D38D00F2E922 /* SimpleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableViewController.m; sourceTree = "<group>"; };
+		ABD095442069D38D00F2E922 /* CatalogueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatalogueCell.h; sourceTree = "<group>"; };
+		ABD095452069D38D00F2E922 /* CatalogueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatalogueCell.m; sourceTree = "<group>"; };
+		ABD095462069D38D00F2E922 /* CatalogueCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CatalogueCell.xib; sourceTree = "<group>"; };
+		C9150877A5CFFBBE45D75846 /* Pods-GZZSPai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GZZSPai.release.xcconfig"; path = "Pods/Target Support Files/Pods-GZZSPai/Pods-GZZSPai.release.xcconfig"; sourceTree = "<group>"; };
+		F5BFCFF38DF66BE7E4903E44 /* Pods-GZZSPai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GZZSPai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GZZSPai/Pods-GZZSPai.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D6A2FB522DA5552785DACBF /* libPods-GZZSPai.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +123,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		476E5C9A256A9DFCB707970B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5BFCFF38DF66BE7E4903E44 /* Pods-GZZSPai.debug.xcconfig */,
+				C9150877A5CFFBBE45D75846 /* Pods-GZZSPai.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AB45524D20577537007C53DB = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +139,8 @@
 				AB45527120577537007C53DB /* GZZSPaiTests */,
 				AB45527C20577538007C53DB /* GZZSPaiUITests */,
 				AB45525720577537007C53DB /* Products */,
+				476E5C9A256A9DFCB707970B /* Pods */,
+				DDEA4459F7AA58333D21BEB2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +157,17 @@
 		AB45525820577537007C53DB /* GZZSPai */ = {
 			isa = PBXGroup;
 			children = (
-				AB45525920577537007C53DB /* AppDelegate.h */,
-				AB45525A20577537007C53DB /* AppDelegate.m */,
-				AB45525C20577537007C53DB /* ViewController.h */,
-				AB45525D20577537007C53DB /* ViewController.m */,
-				AB45525F20577537007C53DB /* Main.storyboard */,
+				AB8DB9D42068BA5E006959AA /* Study */,
+				AB45528D20577765007C53DB /* Data */,
+				AB45528E20577772007C53DB /* Main */,
+				AB45528C20577765007C53DB /* Home */,
+				AB45528B20577764007C53DB /* Found */,
+				AB45529020577788007C53DB /* Message */,
+				AB45528F20577773007C53DB /* Login */,
+				AB4552912057786F007C53DB /* Support */,
 				AB45526220577537007C53DB /* Assets.xcassets */,
 				AB45526420577537007C53DB /* LaunchScreen.storyboard */,
 				AB45526720577537007C53DB /* Info.plist */,
-				AB45526820577537007C53DB /* main.m */,
 			);
 			path = GZZSPai;
 			sourceTree = "<group>";
@@ -132,6 +190,239 @@
 			path = GZZSPaiUITests;
 			sourceTree = "<group>";
 		};
+		AB45528B20577764007C53DB /* Found */ = {
+			isa = PBXGroup;
+			children = (
+				AB4552A420577BEC007C53DB /* Model */,
+				AB4552A520577BEC007C53DB /* View */,
+				AB4552A620577BEC007C53DB /* ViewController */,
+			);
+			path = Found;
+			sourceTree = "<group>";
+		};
+		AB45528C20577765007C53DB /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AB45529E20577B30007C53DB /* Category */,
+				AB4552A020577B30007C53DB /* Model */,
+				AB45529D20577B30007C53DB /* View */,
+				AB45529F20577B30007C53DB /* ViewController */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AB45528D20577765007C53DB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AB45528E20577772007C53DB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AB45529220577986007C53DB /* ViewController */,
+				AB45529320577986007C53DB /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AB45528F20577773007C53DB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				AB4552B520578129007C53DB /* LoginPageViewController.h */,
+				AB4552B620578129007C53DB /* LoginPageViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		AB45529020577788007C53DB /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				AB4552A820577BF4007C53DB /* Model */,
+				AB4552A920577BF4007C53DB /* View */,
+				AB4552A720577BF4007C53DB /* ViewController */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		AB4552912057786F007C53DB /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				AB4552B220577D5B007C53DB /* AppDelegate.h */,
+				AB4552B020577D5B007C53DB /* AppDelegate.m */,
+				AB4552B120577D5B007C53DB /* main.m */,
+				AB636F7D205F555000A6F1BD /* PrefixHeader.pch */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		AB45529220577986007C53DB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AB455294205779BF007C53DB /* GZZTabBarController.h */,
+				AB455295205779BF007C53DB /* GZZTabBarController.m */,
+				AB45529720577A0F007C53DB /* GZZNavController.h */,
+				AB45529820577A0F007C53DB /* GZZNavController.m */,
+				AB45529A20577A67007C53DB /* GZZSPaiViewController.h */,
+				AB45529B20577A67007C53DB /* GZZSPaiViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AB45529320577986007C53DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB636F7A205F518800A6F1BD /* HeaderView.h */,
+				AB636F7B205F518800A6F1BD /* HeaderView.m */,
+				AB636F7E205F918800A6F1BD /* GZZLoadingView.h */,
+				AB636F7F205F918800A6F1BD /* GZZLoadingView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB45529D20577B30007C53DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AB7ACE8420637E7F00300FAD /* AdsCell.h */,
+				AB7ACE8520637E7F00300FAD /* AdsCell.m */,
+				AB9DC3D6206496FD00B2C3C2 /* NewsCell.h */,
+				AB9DC3D7206496FD00B2C3C2 /* NewsCell.m */,
+				AB8DB9D1206886D6006959AA /* PaidNewsCell.h */,
+				AB8DB9D2206886D6006959AA /* PaidNewsCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB45529E20577B30007C53DB /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		AB45529F20577B30007C53DB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AB4552A120577B67007C53DB /* HomePageViewController.h */,
+				AB4552A220577B67007C53DB /* HomePageViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AB4552A020577B30007C53DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB4552A420577BEC007C53DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB4552A520577BEC007C53DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB4552A620577BEC007C53DB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AB4552AD20577C57007C53DB /* FoundViewController.h */,
+				AB4552AE20577C57007C53DB /* FoundViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AB4552A720577BF4007C53DB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AB4552AA20577C39007C53DB /* MessageViewController.h */,
+				AB4552AB20577C39007C53DB /* MessageViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		AB4552A820577BF4007C53DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AB4552A920577BF4007C53DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AB8DB9D42068BA5E006959AA /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				AB8DB9D62068BABC006959AA /* StudyTableView */,
+			);
+			path = Study;
+			sourceTree = "<group>";
+		};
+		AB8DB9D62068BABC006959AA /* StudyTableView */ = {
+			isa = PBXGroup;
+			children = (
+				ABD0953E2069D38D00F2E922 /* SimpleTabelViewController */,
+			);
+			path = StudyTableView;
+			sourceTree = "<group>";
+		};
+		ABD0953E2069D38D00F2E922 /* SimpleTabelViewController */ = {
+			isa = PBXGroup;
+			children = (
+				ABD0953F2069D38D00F2E922 /* Controller */,
+				ABD095422069D38D00F2E922 /* Model */,
+				ABD095432069D38D00F2E922 /* View */,
+			);
+			path = SimpleTabelViewController;
+			sourceTree = "<group>";
+		};
+		ABD0953F2069D38D00F2E922 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ABD095402069D38D00F2E922 /* SimpleTableViewController.h */,
+				ABD095412069D38D00F2E922 /* SimpleTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ABD095422069D38D00F2E922 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ABD095432069D38D00F2E922 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ABD095442069D38D00F2E922 /* CatalogueCell.h */,
+				ABD095452069D38D00F2E922 /* CatalogueCell.m */,
+				ABD095462069D38D00F2E922 /* CatalogueCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDEA4459F7AA58333D21BEB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00A50F0948534D495EC9D649 /* libPods-GZZSPai.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +430,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB45528220577538007C53DB /* Build configuration list for PBXNativeTarget "GZZSPai" */;
 			buildPhases = (
+				8FCF0A0811BE5637607F8339 /* [CP] Check Pods Manifest.lock */,
 				AB45525220577537007C53DB /* Sources */,
 				AB45525320577537007C53DB /* Frameworks */,
 				AB45525420577537007C53DB /* Resources */,
+				2D0F7960A6C53326DE14E8AC /* [CP] Embed Pods Frameworks */,
+				6F4D0F7664B1302B34699181 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,8 +533,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB45526620577537007C53DB /* LaunchScreen.storyboard in Resources */,
+				ABD095492069D38D00F2E922 /* CatalogueCell.xib in Resources */,
 				AB45526320577537007C53DB /* Assets.xcassets in Resources */,
-				AB45526120577537007C53DB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,14 +554,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D0F7960A6C53326DE14E8AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GZZSPai/Pods-GZZSPai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F4D0F7664B1302B34699181 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GZZSPai/Pods-GZZSPai-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FCF0A0811BE5637607F8339 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GZZSPai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB45525220577537007C53DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB45525E20577537007C53DB /* ViewController.m in Sources */,
-				AB45526920577537007C53DB /* main.m in Sources */,
-				AB45525B20577537007C53DB /* AppDelegate.m in Sources */,
+				AB7ACE8620637E7F00300FAD /* AdsCell.m in Sources */,
+				AB4552A320577B67007C53DB /* HomePageViewController.m in Sources */,
+				ABD095472069D38D00F2E922 /* SimpleTableViewController.m in Sources */,
+				AB636F7C205F518800A6F1BD /* HeaderView.m in Sources */,
+				AB4552AC20577C39007C53DB /* MessageViewController.m in Sources */,
+				AB455296205779BF007C53DB /* GZZTabBarController.m in Sources */,
+				AB45529C20577A67007C53DB /* GZZSPaiViewController.m in Sources */,
+				AB45529920577A0F007C53DB /* GZZNavController.m in Sources */,
+				AB4552AF20577C57007C53DB /* FoundViewController.m in Sources */,
+				AB636F80205F918800A6F1BD /* GZZLoadingView.m in Sources */,
+				AB4552B420577D5B007C53DB /* main.m in Sources */,
+				AB8DB9D3206886D7006959AA /* PaidNewsCell.m in Sources */,
+				AB9DC3D8206496FD00B2C3C2 /* NewsCell.m in Sources */,
+				AB4552B320577D5B007C53DB /* AppDelegate.m in Sources */,
+				AB4552B720578129007C53DB /* LoginPageViewController.m in Sources */,
+				ABD095482069D38D00F2E922 /* CatalogueCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,14 +661,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AB45525F20577537007C53DB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB45526020577537007C53DB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AB45526420577537007C53DB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -428,9 +778,12 @@
 		};
 		AB45528320577538007C53DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5BFCFF38DF66BE7E4903E44 /* Pods-GZZSPai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3235GGYLH4;
+				GCC_PREFIX_HEADER = "/Users/jiangkuiquan/Desktop/天空代码/GZZSPai/GZZSPai/Support/PrefixHeader.pch";
 				INFOPLIST_FILE = GZZSPai/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.skye.GZZSPai;
@@ -441,9 +794,12 @@
 		};
 		AB45528420577538007C53DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9150877A5CFFBBE45D75846 /* Pods-GZZSPai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3235GGYLH4;
+				GCC_PREFIX_HEADER = "/Users/jiangkuiquan/Desktop/天空代码/GZZSPai/GZZSPai/Support/PrefixHeader.pch";
 				INFOPLIST_FILE = GZZSPai/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.skye.GZZSPai;
